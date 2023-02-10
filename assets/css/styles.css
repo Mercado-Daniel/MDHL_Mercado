@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    border: 0;
+    box-sizing: border-box;
 }
 #banner-img{
     width: 80vh;
@@ -10,6 +10,10 @@
 }
 .img-lateral{
     display: inline-block;
+}
+body{
+    width: 80vh;
+    margin: auto;
 }
 h1{
     display: inline;
@@ -21,22 +25,27 @@ header{
     display: block;
     width: 80vh;
 }
+main{
+    display: block;
+    width: 80vh;
+}
 .marco{
     border: solid;
     text-align: center;
 }
 .imgs{
-    margin: 14px;
+    margin: 2vh;
     display: block;
-    width: 20vh;
+    width: 18vh;
 }
 .contenido{
     display: inline-block;
-    margin: 14px;
+    margin: 2vh;
+    width: 50vh;
     
 }
 p{
-    width: 60vh;
+    width: 50vh;
 }
 .boton-nav{
     border: solid;
@@ -50,8 +59,11 @@ p{
     
 }
 .boton-nav:hover{
-    background-color: greenyellow;
+    background-color: green;
     color: black;
+}
+a[href="#"]{
+    background-color: rgb(130, 194, 33);
 }
 
 
