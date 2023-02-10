@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#banner-img{
+    width: 80vh;
+    display: block;
+
+}
+.img-lateral{
+    display: inline-block;
+}
+h1{
+    display: inline;
+}
+nav{
+    display: inline-block;
+}
+header{
+    display: block;
+    width: 80vh;
+}
+.marco{
+    border: solid;
+    text-align: center;
+}
+.imgs{
+    margin: 14px;
+    display: block;
+}
+.contenido{
+    display: inline-block;
+    margin: 14px;
+    
+}
+p{
+    width: 60vh;
+}
+.boton-nav{
+    border: solid;
+    border-color: black;
+    background-color: rgba(22, 101, 227, 0.979);
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    display: inline-block;
+    
+    
+}
+.boton-nav:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+
