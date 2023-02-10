@@ -28,6 +28,7 @@ header{
 .imgs{
     margin: 14px;
     display: block;
+    width: 20vh;
 }
 .contenido{
     display: inline-block;
