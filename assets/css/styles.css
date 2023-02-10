@@ -3,49 +3,51 @@
     padding: 0;
     box-sizing: border-box;
 }
-#banner-img{
-    width: 80vh;
-    display: block;
-
-}
 .img-lateral{
     display: inline-block;
 }
 body{
-    width: 80vh;
-    margin: auto;
+   width: 80vw;
+   height: auto;
 }
-h1{
-    display: block;
-}
+
 nav{
     text-align: right;
 }
 header{
-    width: 80vh;
+    width: 80vw;
+    height: 25vh;
+    margin: 20px 10%;
+    background-image: url(../images/design1_image2.jpg);
+    background-size: cover;
+    background-position: 0 0%;
+    margin-top: 2%;
 }
 main{
-    width: 80vh;
+    width: 80vw;
+    margin: 0px 10%;
 }
 .marco{
     border: solid;
+    display: inline-block;
     text-align: center;
+    position: relative;
+    bottom: 2vh;
+    right: 15.8vw;
+    width: 80vw;
 }
 .imgs{
-    margin: 2vh;
+    margin: 2%;
     display: block;
-    width: 14vh;
+    width: 14vw;
 }
 .contenido{
     display: inline-block;
-    margin: 2vh;
-    width: 50vh;
+    width: 50vw;
     vertical-align: top;
-    
+    margin-left: 2%;
 }
-p{
-    width: 50vh;
-}
+
 .boton-nav{
     border: solid;
     border-color: black;
