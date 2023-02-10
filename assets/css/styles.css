@@ -7,12 +7,21 @@
     display: inline-block;
 }
 body{
+   font-family: 'Comic Neue', cursive;
    width: 80vw;
    height: auto;
+}
+h1{
+    position: relative;
+    bottom: 4vh;
 }
 
 nav{
     text-align: right;
+    position: relative;
+    bottom: 5vh;
+    right: 1vh;
+
 }
 header{
     width: 80vw;
@@ -21,7 +30,7 @@ header{
     background-image: url(../images/design1_image2.jpg);
     background-size: cover;
     background-position: 0 0%;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 main{
     width: 80vw;
@@ -40,6 +49,7 @@ main{
     margin: 2%;
     display: block;
     width: 14vw;
+    
 }
 .contenido{
     display: inline-block;
