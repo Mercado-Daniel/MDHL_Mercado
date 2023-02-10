@@ -16,17 +16,15 @@ body{
     margin: auto;
 }
 h1{
-    display: inline;
+    display: block;
 }
 nav{
-    display: inline-block;
+    text-align: right;
 }
 header{
-    display: block;
     width: 80vh;
 }
 main{
-    display: block;
     width: 80vh;
 }
 .marco{
@@ -36,12 +34,13 @@ main{
 .imgs{
     margin: 2vh;
     display: block;
-    width: 18vh;
+    width: 14vh;
 }
 .contenido{
     display: inline-block;
     margin: 2vh;
     width: 50vh;
+    vertical-align: top;
     
 }
 p{
@@ -55,8 +54,6 @@ p{
     text-decoration: none;
     color: aliceblue;
     display: inline-block;
-    
-    
 }
 .boton-nav:hover{
     background-color: green;
