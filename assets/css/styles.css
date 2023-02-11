@@ -7,12 +7,13 @@
     display: inline-block;
 }
 body{
-   font-family: 'Comic Neue', cursive;
-   width: 80vw;
-   height: auto;
+   font-family: 'Comic Neue';
+   width: 100vw;
 }
 h1{
+    display: inline-block;
     position: relative;
+    transform: scale(1.5,1.5) translate(4vw);
     bottom: 4vh;
 }
 
@@ -25,37 +26,39 @@ nav{
 }
 header{
     width: 80vw;
-    height: 25vh;
-    margin: 20px 10%;
+    height: 20vh;
     background-image: url(../images/design1_image2.jpg);
     background-size: cover;
-    background-position: 0 0%;
-    margin-top: 5%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    transform: translate(10vw);
+    background-position: 50% 25%;
 }
 main{
     width: 80vw;
-    margin: 0px 10%;
+    transform:translate(10vw);
 }
 .marco{
     border: solid;
     display: inline-block;
     text-align: center;
-    position: relative;
-    bottom: 2vh;
-    right: 15.8vw;
+    position: absolute;
     width: 80vw;
+    transform:translate(-16.3vw, -10vh);
+    
 }
 .imgs{
-    margin: 2%;
+    margin-left: 2vw;
+    margin-right: 4vw;
     display: block;
-    width: 14vw;
+    width: 10vw;
     
 }
 .contenido{
     display: inline-block;
     width: 50vw;
     vertical-align: top;
-    margin-left: 2%;
+    margin-top: 5vh;
 }
 
 .boton-nav{
@@ -66,6 +69,7 @@ main{
     text-decoration: none;
     color: aliceblue;
     display: inline-block;
+    padding: .3vw;
 }
 .boton-nav:hover{
     background-color: green;
