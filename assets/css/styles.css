@@ -13,15 +13,18 @@ body{
 h1{
     display: inline-block;
     position: relative;
-    transform: scale(1.5,1.5) translate(4vw);
-    bottom: 4vh;
+    transform: translate(-.2vw, -4vw);
+    font-size: 4vw;
 }
-
+p{
+    text-indent: 1vw;
+    font-size: large;
+}
 nav{
     text-align: right;
-    position: relative;
-    bottom: 5vh;
-    right: 1vh;
+    position: absolute;
+    bottom: 18vh;
+    right: 2vh;
 
 }
 header{
@@ -62,7 +65,7 @@ main{
 }
 
 .boton-nav{
-    border: solid;
+    border: solid 1px;
     border-color: black;
     background-color: rgba(22, 101, 227, 0.979);
     text-align: center;
@@ -70,6 +73,8 @@ main{
     color: aliceblue;
     display: inline-block;
     padding: .3vw;
+    box-shadow: 4px 5px 0px rgb(46, 43, 43);
+    
 }
 .boton-nav:hover{
     background-color: green;
