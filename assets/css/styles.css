@@ -45,6 +45,9 @@ header{
     border-radius: 12px;
 }
 main{
+    background-image: url(../images/pexels-cottonbro-studio-6557757.jpg);
+    background-size: cover;
+    border-radius:12px;
     display: flex;
     flex-direction: wrap-reverse;
     align-items: flex-start;
@@ -105,6 +108,14 @@ tbody tr:nth-child(odd), thead tr, tfoot tr{
     width: 100%;
     border: solid;
 }
-
+.alf{
+    list-style-type: lower-alpha;
+}
+.t-rules{
+    display: flex;
+}
+li{
+    list-style-position: inside;
+}
 
 
