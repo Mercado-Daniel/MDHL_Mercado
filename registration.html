@@ -20,7 +20,7 @@
         <nav>
             <a class="boton-nav" href="./index.html">Home</a>
             <a class="boton-nav" href="./about.html">About MDHL</a>
-            <a class="boton-nav" href="./contact.html">Games</a>
+            <a class="boton-nav" href="./contact.html">Game Information</a>
             <a class="boton-nav" href="./rules.html">Rules</a>
             <a class="boton-nav" href="#">Registration</a>
             <a class="boton-nav" href="./contact.html">contact</a>
@@ -40,15 +40,15 @@
                     <label for="f-name">Player's First Name:</label>
                     <input required type="text" id="f-name" name="f-name">
                     <label for="l-name">Last Name:</label>
-                    <input type="text" id="l-name" name="l-name">
+                    <input required type="text" id="l-name" name="l-name">
                     <label for="s-address">Street Address:</label>
-                    <input type="text" id="s-address" name="s-address">
+                    <input required type="text" id="s-address" name="s-address">
                     <label for="city">City:</label>
-                    <input type="text" id="city" name="city">
+                    <input required type="text" id="city" name="city">
                     <label for="z-code">Zip Code:</label>
-                    <input type="number" id="z-code" name="z-code">
+                    <input required type="number" id="z-code" name="z-code">
                     <label for="b-date">Birth Date(mm/dd/yyyy</label>
-                    <input type="date" id="b-date" name="b-date">
+                    <input required type="date" id="b-date" name="b-date">
                     <fieldset >
                         <legend>Gender</legend>
                         <label>
@@ -91,48 +91,34 @@
                 <h3>Which elementary school do you live near?</h3>
                 <fieldset>
                     <legend>Closest School:</legend>
-                    <label>
-                        <input type="radio" name="school" value="AJ">
-                        AJ Katzenmaier
-                    </label>
-                    <label>
-                        <input type="radio" name="school" value="Gr">
-                        Greenbay
-                    </label>
-                    <label>
-                        <input type="radio" name="school" value="HAY">
-                        Howard A Yeager
-                    </label>
-                    <label>
-                        <input type="radio" name="school" value="MPH">
-                        Marjori P Hart
-                    </label>
-                    <label>
-                        <input type="radio" name="school" value="N">
-                        North
-                    </label>
-                    <label>
-                        <input type="radio" name="school" value="S">
-                        South
-                    </label>
+                    <label for="select"></label>
+                    <select name="school" id="select">
+                        <option disabled selected>Select School</option>
+                        <option value="AJ">AJ Katzenmaier</option>
+                        <option value="MPH">Marjorie P Hart</option>
+                        <option value="Gr">Greenbay</option>
+                        <option value="NE">North Elementary</option>
+                        <option value="HAY">Howard A Yeager</option>
+                        <option value="SE">South Elementary</option>
+                    </select>
                 </fieldset>
                 <h3>What position(s) do you normally play?(check all that apply)</h3>
                 <fieldset>
                     <legend>Position</legend>
                     <label>
-                        <input type="radio" name="position1" value="forward">
+                        <input type="checkbox" name="position1" value="forward">
                         Forward
                     </label>
                     <label>
-                        <input type="radio" name="position2" value="mildfield">
+                        <input type="checkbox" name="position2" value="mildfield">
                         Mildfield
                     </label>
                     <label>
-                        <input type="radio" name="position3" value="defense">
+                        <input type="checkbox" name="position3" value="defense">
                         Defense
                     </label>
                     <label>
-                        <input type="radio" name="position4" value="goalkeeper">
+                        <input type="checkbox" name="position4" value="goalkeeper">
                         Goalkeeper
                     </label>
                 </fieldset>
@@ -181,9 +167,9 @@
                 </p>
                 <fieldset>
                     <label for="tutor">Parent/GuardianSignature:</label>
-                    <input type="text" id="tutor" name="tutor">
+                    <input required type="text" id="tutor" name="tutor">
                     <label for="tutor-date">Date:</label>
-                    <input type="date" id="tutor-date" name="tutor-date">
+                    <input required type="date" id="tutor-date" name="tutor-date">
                 </fieldset>
                 <input type="submit" value="submit">
             </form>
