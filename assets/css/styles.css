@@ -11,8 +11,8 @@
     border-radius: 12px;
 }
 body{
-   font-family: 'Comic Neue';
-   width: 100vw;
+    font-family: 'Comic Neue';
+    width: 100vw;
 }
 h1{
     display: inline;
@@ -110,9 +110,6 @@ tbody tr:nth-child(odd), thead tr, tfoot tr{
 }
 .alf{
     list-style-type: lower-alpha;
-}
-.t-rules{
-    display: flex;
 }
 li{
     list-style-position: inside;
