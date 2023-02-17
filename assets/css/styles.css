@@ -12,7 +12,7 @@
 }
 body{
     font-family: 'Comic Neue';
-    width: 100vw;
+    width: 100%;
 }
 h1{
     display: inline;
@@ -48,17 +48,16 @@ main{
     background-size: cover;
     border-radius:12px;
     display: flex;
-    flex-direction: wrap-reverse;
     align-items: flex-start;
     align-content: center;
-    width: 80vw;
+    width: 80%;
     transform:translate(10vw);
 }
 .marco{
     border: solid;
     display: inline-block;
     text-align: center;
-    background-color:rgb(130, 194, 33); ;
+    background-color:rgb(130, 194, 33);
     border-radius: 12px;
 }
 .imgs{
@@ -75,6 +74,14 @@ main{
     color: aliceblue;
     border-radius: 12px;
     padding: 2vw;
+}
+.dentro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    width: 40%;
 }
 .boton-nav{
     border: solid 1px;
@@ -105,6 +112,34 @@ tbody tr:nth-child(odd), thead tr, tfoot tr{
     color: aliceblue;
     width: 80%;
     text-align: center;
+}
+.datos{
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    padding: 12px;
+}
+.otros-datos{
+    border-radius: 12px;
+    padding-left: 12px;
+}
+input{
+    background-color: rgba(0, 0, 0, 0);
+    color: aliceblue;
+    border-radius: 12px;
+    padding-left: 12px;
+    border-color: aliceblue;
+}
+#select{
+    background-color: rgba(0, 0, 0, 0);
+    color:rgb(130, 194, 33);
+    border-radius: 12px;
+}
+.submit{
+    border-radius: 12px;
+    padding: 12px;
+    background-color:rgba(0, 0, 0, 0.5);
+    color: aliceblue;
 }
 .alf{
     list-style-type: lower-alpha;
